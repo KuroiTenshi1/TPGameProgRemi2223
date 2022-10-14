@@ -605,3 +605,6 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/cmake,windows,jetbrains,visualstudio,visualstudiocode,macos
+
+
+**/.idea/workspace.xml **/.idea/tasks.xml
