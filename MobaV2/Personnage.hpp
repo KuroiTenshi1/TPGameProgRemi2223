@@ -16,8 +16,8 @@ public:
         this->_styleDeCombat = m_styleDeCombat;
     }
 
-    void attack(Personnage* self, Personnage* Target) {
-        _styleDeCombat->Attack(self, Target);
+    void attack(Personnage* Target) {
+        _styleDeCombat->Attack(this, Target);
     }
 
 };
