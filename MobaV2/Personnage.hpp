@@ -16,14 +16,14 @@ public:
         this->_styleDeCombat = m_styleDeCombat;
     }
 
-    void attack(Personnage* Target) {
+    void attack(Personnage *Target) {
         _styleDeCombat->Attack(this, Target);
     }
 
 };
 
 
-template <class Style>
+template<class Fight, class Skill>
 class HeroTemplate : public Personnage {
 public:
     HeroTemplate() {

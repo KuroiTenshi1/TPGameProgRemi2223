@@ -5,10 +5,9 @@
 
 using namespace std;
 
-int main()
-{
-    Personnage* p1 = new Warrior();
-    Personnage* p2 = new Mage();
+int main() {
+    Personnage *p1 = new Warrior();
+    Personnage *p2 = new Mage();
     p1->attack(p2);
     p2->attack(p1);
     return 0;

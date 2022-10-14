@@ -16,7 +16,5 @@ public:
 };
 
 
-
-
 using MagicianTemplate = HeroTemplate<Stick>;
 using WarriorTemplate = HeroTemplate<Sword>;

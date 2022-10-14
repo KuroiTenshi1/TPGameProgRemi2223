@@ -7,7 +7,8 @@
 class StyleDeCombat {
 public:
     virtual ~StyleDeCombat() {}
-    virtual void Attack(Personnage* self, Personnage* Target) const = 0;
+
+    virtual void Attack(Personnage *self, Personnage *Target) const = 0;
 };
 
 
