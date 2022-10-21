@@ -41,17 +41,14 @@ namespace components {
     };
 };
 
-struct GameObjectBase
+class GameObjectBase
 {
     virtual ~GameObjectBase() = default;
     virtual void update() = 0;
 };
-template<typename... Components>
-struct GameObject : public Components ... {
-};
 
 template<typename... Components>
-struct GameObject : public GameObjectBase, public Components ...
+class GameObject : public GameObjectBase, public Components ...
 {
 
 private:
