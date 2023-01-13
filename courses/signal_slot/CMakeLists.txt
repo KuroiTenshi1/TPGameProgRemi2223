@@ -2,5 +2,5 @@
 
 set (CMAKE_CXX_STANDARD 17)
 
-add_executable (AStar main.cpp ../factory/main.cpp)
+add_executable (signal_slot main.cpp )
 
